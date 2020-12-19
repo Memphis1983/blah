@@ -1,0 +1,306 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 562.5%;
+  color: #66bfbf;
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive !important;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+ 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+ 
+p {
+  line-height: 2;
+}
+ 
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}    
+     
+a {  
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}         
+          
+a:hover { 
+  color: #eaf6f6;
+}         
+          
+.btn1 {   
+  color: #11999e;
+  margin-bottom: 100px;
+}           
+            
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;        
+  padding-top: 100px;        
+}                            
+                             
+.middle-container {          
+  margin: 10px auto;         
+  height: 10px;              
+}                            
+                             
+.pro {                       
+  text-decoration: underline;
+}                            
+                             
+.intro {                     
+  width: 30%;                
+  margin: auto;              
+  font-size: 1.2rem;         
+}                            
+                             
+.contact-message {           
+  width: 40%;                
+  margin: 40px auto 60px;    
+}                            
+                             
+.copyright {                 
+  color: #eaf6f6;            
+  font-size: 0.75rem;        
+  padding: 20px 0;           
+}                            
+                             
+.top-cloud {                 
+  width: 15%;                
+  position: absolute;        
+  right: 205px;              
+  top: 90px;                 
+}                            
+                             
+.bottom-cloud {              
+  width: 15%;                
+  position: absolute;        
+  left: 167px;               
+  bottom: 293px;             
+}                            
+                             
+.skill-row {                 
+  width: 50%;                
+  margin: 100px auto;        
+  text-align: left;          
+  line-height: 2;            
+}                            
+                             
+.skill-image1 {              
+  width: 25%;                
+  float: left;               
+  margin-right: 30px;        
+}                            
+                             
+.skill-image2 {              
+  width: 30%;                
+  float: right;              
+  margin-left: 30px;         
+}                            
+                             
+.my-image {                  
+  width: 15%;                
+  border-radius: 40%;        
+  padding-top: 50px;         
+}                            
+                             
+.bottom-container {          
+  background-color: #66bfbf; 
+  padding: 50px 0 20px;      
+}                            
+                             
+.btn {                       
+  background: #66bfbf;       
+  background-image: -webkit-linear-gradient(top, #66bfbf, #488585);
+  background-image: -moz-linear-gradient(top, #66bfbf, #488585);
+  background-image: -ms-linear-gradient(top, #66bfbf, #488585);
+  background-image: -o-linear-gradient(top, #66bfbf, #488585);
+  background-image: -webkit-gradient(
+    linear,                  
+    left top,                
+    left bottom,             
+    from(#66bfbf),           
+    to(#488585)              
+  );                         
+  background-image: linear-gradient(to bottom, #66bfbf, #488585);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;   
+  border-radius: 8px;        
+  color: #ffffff;            
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;           
+  padding: 7px;              
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;     
+  display: inline-block;     
+  cursor: pointer;           
+  text-align: center;        
+}                            
+                             
+.btn:hover {                 
+  border: solid #337fed 0px; 
+  background: #8af9f9;       
+  background-image: -webkit-linear-gradient(top, #8af9f9, #64b4b4);
+  background-image: -moz-linear-gradient(top, #8af9f9, #64b4b4);
+  background-image: -ms-linear-gradient(top, #8af9f9, #64b4b4);
+  background-image: -o-linear-gradient(top, #8af9f9, #64b4b4);
+  background-image: -webkit-gradient(
+    linear,                  
+    left top,                
+    left bottom,             
+    from(#8af9f9),           
+    to(#64b4b4)              
+  );                         
+  background-image: linear-gradient(to bottom, #8af9f9, #64b4b4);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;   
+  border-radius: 8px;        
+  text-decoration: none;     
+}                            
+                             
+/* project-showcase Section */
+                             
+#project-showcase {          
+  background-color: #ef8172; 
+}                            
+                             
+.project-text {              
+  font-size: 3rem;           
+  line-height: 1.5;          
+}                            
+                             
+.project-image {             
+  width: 50%;                
+  margin: 20px;              
+  border-radius: 100px;      
+}                            
+/*Animation */               
+                             
+.content {                   
+  width: 100vw;              
+  height: 20vh;              
+  display: flex;             
+  align-items: center;       
+  justify-content: center;   
+}                            
+                             
+.slider-wrapper {            
+  font-size: 30px;           
+  text-transform: uppercase; 
+  color: #aaa;               
+  font-weight: bold;         
+  display: flex;             
+  align-items: center;       
+  justify-content: center;   
+}                            
+                             
+.slider {                    
+  height: 50px;              
+  padding-left: 15px;        
+  overflow: hidden;          
+}                            
+                             
+.slider div {                
+  color: #fff;               
+  height: 50px;              
+  margin-bottom: 50px;       
+  padding: 7px 15px;         
+  text-align: center;        
+  box-sizing: border-box;    
+}                            
+                             
+span {                       
+  color: #66bfbf;            
+}                            
+                             
+.slider-text1 {              
+  background: lightgreen;    
+  animation: slide 7s linear infinite;
+}                            
+.slider-text2 {              
+  background: lightblue;     
+}                            
+.slider-text3 {              
+  background: lightsalmon;   
+}                            
+.slider-text4 {              
+  background: lightpink;     
+}                            
+.slider-text5 {              
+  background: lightsteelblue;
+}                            
+.slider-text6 {              
+  background: red;           
+}                            
+.slider-text7 {              
+  background: cyan;          
+}                            
+                             
+@keyframes slide {           
+  0% {                       
+    margin-top: -300px;      
+  }                          
+  5% {                       
+    margin-top: -200px;      
+  }                          
+  33% {                      
+    margin-top: -200px;      
+  }                          
+  38% {                      
+    margin-top: -100px;      
+  }                          
+  66% {                      
+    margin-top: -100px;         
+  }                             
+  71% {                                     
+    margin-top: 0px;                        
+  }                                         
+  100% {                                    
+    margin-top: 0px;                        
+  }                                         
+}                                                 
+                                                  
+/* text-background */                             
+h1 {                                              
+  background: url(https://iweb.uz/wp-content/uploads/2012/07/colored21.jpg)
+      repeat,                                     
+    white;                                        
+  text-align: center;                             
+  -webkit-text-fill-color: transparent;           
+  -webkit-background-clip: text;                  
+  -webkit-animation: animation 5s infinite linear;
+}                                                 
+@-webkit-keyframes animation {                    
+  0% {                                            
+    background-position: right bottom;            
+  }                                               
+  100% {                                          
+    background-position: left bottom;             
+  }                                               
+}                                                 
+                                                  
+::selection {                                     
+  background: rgb(63, 60, 60);                    
+  -webkit-text-stroke: 2px #fff;                  
+}                                                 
+                                                  
