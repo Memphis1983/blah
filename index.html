@@ -2,310 +2,320 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kieran Iyer.</title>
     <!-- Google Fonts  -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;1,100&display=swap"
       rel="stylesheet"
     />
-
     <!-- Font Awesome -->
-    <script src="https://use.fontawesome.com/eb843f578e.js"></script>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
-
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- <link rel="stylesheet" href="css/styles1.css">                                   -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Bootstrap Script -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="css/kiran.css" />
+    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" />
+    <!-- javascript files -->
+    <script src="js/main.js" defer></script>
+    <script src="js/nav.js" defer></script>
   </head>
   <body>
-    <header class="v-header container">
-      <div class="fullscreen-video-wrap">
-        <video src="video/web_2.mp4" autoplay="true" loop="true"></video>
-      </div>
-      <div class="header-overlay"></div>
+    <video
+      src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4"
+      autoplay
+      loop
+      playsinline
+      muted
+    ></video>
+    <header class="header">
+      <img
+        class="logo"
+        src="https://png.pngtree.com/templates_detail/20180926/letter-k-vector-logo-png_34144.jpg"
+        alt="logo"
+      />
 
-      <div class="header-content">
-        <h1 class="bg-text">Hello, I'm Kiran</h1>
-        <h2>
-          Software Engineer & <span class="pro">Freelance</span>-Developer.
-        </h2>
-
-        <div class="top-content">
-          <div class="slider-wrapper">
-            <span class="short">I can write</span>
-            <div class="slider">
-              <div class="slider-text1">HTML</div>
-              <div class="slider-text2">CSS</div>
-              <div class="slider-text3">JavaScript</div>
-              <div class="slider-text4">Node.Js</div>
-              <div class="slider-text5">Express.Js</div>
-              <div class="slider-text6">SCSS</div>
-              <div class="slider-text7">Tailwindcss</div>
-            </div>
-          </div>
-        </div>
-
-        <p class="quote">
-          <em
-            >“Your website is the center of your digital eco-system, like a
-            brick and mortar location, the experience matters once a customer
-            enters, just as much as the perception they have of you before they
-            walk through the door.”</em
-          >
-        </p>
-      </div>
+      <ul class="nav__links">
+        <li><a href="#first">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Social</a></li>
+        <button>Contact</button>
+      </ul>
     </header>
 
-    <hr />
+    <!-- Home -->
+    <section id="first" class="home">
+      <div class="welcome-box">
+        <span class="welcome-first">Hello 👋, I am </span>
+        <h1 class="welcome-title">Kieran</h1>
+        <p class="">
+          I'm a software engineer at 100Devs. Here, I primarily design &amp;
+          build interactive websites with responsive features and web
+          applications using current frameworks and packages, delivering timely
+          solutions while maintaining customer satisfaction.
+        </p>
+        <div class="mouse">
+          <img
+            src="https://cdn2.iconfinder.com/data/icons/cute-tech-icon-set-1/1000/Mouse-256.png"
+            alt=""
+          />
+          <span>Scroll Down</span>
+        </div>
+      </div>
+    </section>
 
-    <!-- Middle Container -->
-    <div id="middle" class="middle-container">
-      <div class="profile">
-        <img class="my-image" src="/images/kieran.png" alt="Kiran's Image" />
-        <h2 class="hello">Hello.</h2>
-        <p class="intro">
-          I'm a software engineer at 100Devs. Here, I primarily design & build
-          interactive websites with responsive features and web applications
-          using current frameworks and packages, delivering timely solutions
-          while maintaining customer satisfaction.
+    <!-- About me -->
+    <section class="about_section">
+      <div class="about_content-box">
+        <!-- <span>About Me</span> -->
+        <h3>Why you need a website?</h3>
+        <p>
+          <strong>DID YOU KNOW?</strong> Mobile users account for<strong
+            >&nbsp;more than half (~53%) of all web traffic!</strong
+          >
+          If your website is not optimized for smartphones, you're missing out
+          on the majority of clients!
+        </p>
+        <p>
+          The&nbsp;*bounce rate*&nbsp;for an average website can be&nbsp;[as
+          high as&nbsp;**50-75%**]. This means that for every 4 people who
+          visit, 2 or 3 will&nbsp;*immediately exit*&nbsp;without engaging with
+          your content. But it doesn't have to be this way! This is where I come
+          in: my job is to captivate your audience with a sleek, user-friendly
+          website that showcases the best your business has to offer. When it
+          comes to growing your business online, you don't have time for a
+          lengthy courtship -- we're aiming for love at first sight.
+        </p>
+      </div>
+      <div class="about_content-img">
+        <img
+          class="about-img"
+          src="https://cdn.dribbble.com/users/2069402/screenshots/5574718/gif-4mb.gif"
+          class="rounded"
+          alt="web developement image"
+        />
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services_section">
+      <div class="blocks">
+        <span>Services</span>
+        <h2>What I Do?</h2>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-comments" aria-hidden="true"></i
+        ></span>
+        <h3>Fast Support</h3>
+        <p>
+          To me, it's not just about building websites but I strive to building
+          meaningful and long-term relationships and provide support &amp; value
+          to my clients. Need my help? Find the best way to reach me
+          <a href="#contact"><strong>here</strong></a>
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-database" aria-hidden="true"></i
+        ></span>
+        <h3>Wireframing</h3>
+        <p>
+          The best way to see your website project come to life is through
+          wireframes and mockups during the early stages of development. I
+          design these vibrant &amp; colorful sketches as inital presentations
+          and keep clients engaged with the experience.
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-bell" aria-hidden="true"></i
+        ></span>
+        <h3>Timely Upgrades</h3>
+        <p>
+          I keep my clients apprised periodically on content and technology to
+          help make informed key decisions on content management, maintainance
+          &amp; value added services.
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-globe" aria-hidden="true"></i
+        ></span>
+        <h3>Improved SEO</h3>
+        <p>
+          Responsive web design is becoming as important to search engine
+          optimization as quality content. Stronger backlinks and better bounce
+          rates translate into higher search rankings, but there is an extra SEO
+          benefit for mobile optimized sites. Having a single responsive website
+          rather than separate desktop and mobile versions avoids the issue of
+          duplicate content, which can negatively impact your search ranking.
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-bookmark" aria-hidden="true"></i
+        ></span>
+        <h3>Web Development</h3>
+        <p>
+          I provide website development services that are on the cutting edge of
+          today’s technologies. I am versed in all Web technologies such as
+          WordPress, Shopify. I even custom develop websites and web
+          applications.
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-clone" aria-hidden="true"></i
+        ></span>
+        <h3>Creative Design</h3>
+        <p>
+          You need more than just a website, you need meaningful outcomes from
+          your business. You therefore need more than just a web designer, you
+          need a partner to deliver those outcomes!
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-desktop" aria-hidden="true"></i
+        ></span>
+        <h3>Fully Responsive</h3>
+        <p>
+          It's increasingly important for businesses to have websites that
+          render properly on smaller screens so that users don't encounter
+          distorted images or experience a sub-optimal site layout, responsive
+          design is becoming the norm because it offers greater versatility at
+          lower development costs
+        </p>
+      </div>
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-mobile" aria-hidden="true"></i
+        ></span>
+        <h3>Mobile Ready</h3>
+        <p>
+          A large majority of your web traffic is viewing your site from a
+          mobile device - at least 45 percent. You have complex site content or
+          features that are difficult to use on a mobile device. I plan on your
+          website to having a longer shelf life and want it to appear up-to-date
+          for longer.
         </p>
       </div>
 
-      <hr />
-
-      <div class="skills">
-        <h2 class="title">Web Development.</h2>
-        <h3>
-          I am someone who is addicted to learning and loves working with people
-        </h3>
-        <div class="skill-row">
-          <img
-            class="skill-image1"
-            src="https://media.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif"
-            alt="html5-img"
-          />
-          <!-- insert your skills pic here -->
-          <h3>Design & Development</h3>
-          <p>
-            Website Architecture and all its related effective tools for web
-            creation are an integral part of the overall market development
-            infrastructure. I strive to deliver the latest creative preparation
-            and concepts for modern B2Cs and B2Bs.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img
-            class="skill-image2"
-            src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif"
-            alt="javascript-img"
-          />
-          <!-- insert your skills pic here -->
-          <h3>Commitment</h3>
-          <p>
-            I am proficient in both Design & Web Development. I've extensive
-            knowledge in HTML, CSS, Javascript, Node.Js and currently skilling
-            up in full stack. As a software engineer, I aspire to help bring
-            innovative ideas to life and demonstrate my commitment to developing
-            world-class software solutions for your company.
-          </p>
-        </div>
-      </div>
-
-      <hr />
-
-      <!-- Project Showcase -->
-      <section class="colored-section" id="project-showcase">
-        <div id="project-carousel" class="carousel slide" data-ride="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active container-fluid">
-              <h2 class="testimonial-text">Restaurant Layout</h2>
-              <img
-                class="project-image"
-                src="images/cuisine-restaurant-mithun-ray.png"
-                alt="Restaurant-Layout"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">Hair Salon Layout</h2>
-              <img
-                class="project-image"
-                src="images/hair-salon-ajmal-khan.webp"
-                alt="Hair Salon"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">Push Work Layout</h2>
-              <img
-                class="project-image"
-                src="images/pushwork-homepage-wireframe-sergey-pikin.webp"
-                alt="Push Work Layout"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">Source Wire-frame layout</h2>
-              <img
-                class="project-image"
-                src="images/source-wireframe-max-schneider.webp"
-                alt="Source Wire-frame layout Image"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">BBC Layout</h2>
-              <img
-                class="project-image"
-                src="images/bbc-image.png"
-                alt="BBC Layout Image"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">TechCrunch Layout</h2>
-              <img
-                class="project-image"
-                src="images/techcrunch.png"
-                alt="TechCrunch Layout Image"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-
-            <div class="carousel-item container-fluid">
-              <h2 class="testimonial-text">Level Ground WireFrame</h2>
-              <img
-                class="project-image"
-                src="images/level-ground-wireframe.png"
-                alt="Level Ground WireFrame Layout"
-              />
-              <a class="clickme" href="#"><em>Check it out</em></a>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#project-carousel"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#project-carousel"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <hr />
-      </section>
-
-      <!--Contact  -->
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>
-          With every line of code, I strive to make the web a beautiful place
-        </h3>
-        <p class="contact-message">
-          After you contact me, we will schedule a call to discuss your
-          business, your products and services, the problems you face and the
-          goals you'd like to achieve. We will build an action plan based around
-          your needs and your budget, and I will draft a timeline for us to get
-          there. I look forward to working with you!
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-comments" aria-hidden="true"></i
+        ></span>
+        <h3>Fast Support</h3>
+        <p>
+          To me, it's not just about building websites but I strive to building
+          meaningful and long-term relationships and provide support &amp; value
+          to my clients. Need my help? Find the best way to reach me
+          <a href="#contact"><strong>here</strong></a>
         </p>
-        <!-- <a class="btn1" href="mailto:kiran.iyer83@gmail.com">CONTACT ME</a>                                                                                                                                                                                                                                      -->
       </div>
- 
-      <!--Contact Form  -->
-      <div id="abc">
-        <div id="popupContact">                                                                                          
-    <form class="contact-form id="id="my-form"" method="POST" name="contact" action="https://formspree.io/f/mjvppobk">          
-    <img class="contact-img" id="close" src="https://media.giphy.com/media/3o7bui7rUlCpyOsA4U/giphy.gif" onclick ="div_hide()">                 
-    <h2 class="us-contact">Contact Us</h2>                                                                           
-    <hr>                                                                                                             
-    <input id="name" name="name" placeholder="Name" type="text">                              
-    <input id="phone" name="phone" placeholder="Phone" type="number">                                                               
-    <input class="email" id="email" name="email" placeholder="Email" type="text">                                                  
-    <textarea id="msg" name="message" placeholder="Message"></textarea>                                              
-    <a href="javascript:%20check_empty()" id="submit">Send</a>                                                       
-    </form>                                                                                                               
-                                    
-      </div>                                                                  
-    </div>                                                                    
-                                                                              
-    <button class="btn-4" id="popup" onclick="div_show()">                    
-      Contact Me <em>ASAP!</em>                                               
-    </button>                                                                 
-                                                                              
-    <hr />                                                                    
-                                                                              
-    <div class="bottom-container">                                            
-      <a class="footer-link" href="mailto:kiraniyer.dev@gmail.com"><i class="fa fa-envelope"></i></a>                                   
-      <a                                                                      
-        class="footer-link"                                                   
-        href="https://www.linkedin.com/in/kieran-iyer-a2bb6b1b5/"             
-        ><i class="fa fa-linkedin"></i                                        
-      ></a>                                                                   
-      <a class="footer-link" href="https://twitter.com/@_amyourdaddy"         
-        ><i class="fa fa-twitter"></i                                         
-      ></a>                                                                   
-      <a class="footer-link" href="https://www.instagram.com/kieran_memphis/" 
-        ><i class="fa fa-instagram"></i></a                                   
-      ><br /><br /><br />                                                     
-      <p class="copyright">                                                   
-        Copyrights © 2020 | All Rights Reserved with Kieran Iyer.             
-      </p>                                                                    
-    </div>                                                                    
-                                                                              
-    <!-- Bootstrap -->                                                        
-    <script                                                                   
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"                  
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"                                                 
-    ></script>                                                                
-    <script                                                                   
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"                                                 
-    ></script>                                                                
-    <script                                                                   
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"                                                 
-    ></script>                                                                
-    <!-- Normal JS -->                                                        
-    <script src="js/main.js"></script>                                        
-    -->                                                                       
-  </body>                                                                     
-</html>                                                                       
-                                                                              
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-database" aria-hidden="true"></i
+        ></span>
+        <h3>Wireframing</h3>
+        <p>
+          The best way to see your website project come to life is through
+          wireframes and mockups during the early stages of development. I
+          design these vibrant &amp; colorful sketches as inital presentations
+          and keep clients engaged with the experience.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-bell" aria-hidden="true"></i
+        ></span>
+        <h3>Timely Upgrades</h3>
+        <p>
+          I keep my clients apprised periodically on content and technology to
+          help make informed key decisions on content management, maintainance
+          &amp; value added services.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-globe" aria-hidden="true"></i
+        ></span>
+        <h3>Improved SEO</h3>
+        <p>
+          Responsive web design is becoming as important to search engine
+          optimization as quality content. Stronger backlinks and better bounce
+          rates translate into higher search rankings, but there is an extra SEO
+          benefit for mobile optimized sites. Having a single responsive website
+          rather than separate desktop and mobile versions avoids the issue of
+          duplicate content, which can negatively impact your search ranking.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-bookmark" aria-hidden="true"></i
+        ></span>
+        <h3>Web Development</h3>
+        <p>
+          I provide website development services that are on the cutting edge of
+          today’s technologies. I am versed in all Web technologies such as
+          WordPress, Shopify. I even custom develop websites and web
+          applications.
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-clone" aria-hidden="true"></i
+        ></span>
+        <h3>Creative Design</h3>
+        <p>
+          You need more than just a website, you need meaningful outcomes from
+          your business. You therefore need more than just a web designer, you
+          need a partner to deliver those outcomes!
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-desktop" aria-hidden="true"></i
+        ></span>
+        <h3>Fully Responsive</h3>
+        <p>
+          It's increasingly important for businesses to have websites that
+          render properly on smaller screens so that users don't encounter
+          distorted images or experience a sub-optimal site layout, responsive
+          design is becoming the norm because it offers greater versatility at
+          lower development costs
+        </p>
+      </div>
+
+      <div class="service-box">
+        <span class="service-icon"
+          ><i class="fa fa-mobile" aria-hidden="true"></i
+        ></span>
+        <h3>Mobile Ready</h3>
+        <p>
+          A large majority of your web traffic is viewing your site from a
+          mobile device - at least 45 percent. You have complex site content or
+          features that are difficult to use on a mobile device. I plan on your
+          website to having a longer shelf life and want it to appear up-to-date
+          for longer.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -15,14 +15,14 @@ body {
   text-align: center;
   margin: 0;
 }
- 
+
 .email {
   width: 82%;
   padding: 0.5rem;
   margin-top: 25px;
   text-align: left;
 }
- 
+
 h1 {
   font-size: 562.5%;
   /* color: #66bfbf; */
@@ -30,21 +30,21 @@ h1 {
   font-family: "Sacramento", cursive !important;
   line-height: 2;
 }
- 
+
 h2 {
   font-size: 2.5rem;
- 
+
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   padding-bottom: 10px;
 }
- 
+
 h3 {
   font-family: "Montserrat", sans-serif;
   /* color: #11999e; */
   font-size: 1.2rem;
 }
- 
+
 p {
   line-height: 2;
 }
@@ -54,18 +54,18 @@ hr {
   width: 4%;
   margin: 100px auto;
 }
- 
+
 a {
   color: #11999e;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
- 
+
 a:hover {
   color: #eaf6f6;
 }
- 
+
 .footer-link {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -74,23 +74,23 @@ a:hover {
   text-decoration: none;
   font-weight: 800;
 }
- 
+
 .footer-link:hover {
   color: #c2d0de;
 }
- 
+
 .btn1 {
   color: #11999e;
   margin-bottom: 100px;
 }
- 
+
 .v-header {
   height: 100vh;
   display: flex;
   align-items: center;
   color: #fff;
 }
- 
+
 .container {
   max-width: 960px;
   padding-left: 1rem;
@@ -119,14 +119,14 @@ a:hover {
   z-index: 1;
   opacity: 0.85;
 }
- 
+
 .header-content {
   padding-top: 7rem;
   z-index: 2;
 }
- 
+
 /* -------------------- */
- 
+
 .header-content h1 {
   font-size: 50px;
   margin-bottom: 0;
@@ -138,17 +138,17 @@ a:hover {
   padding-left: 2rem;
   padding-right: 2rem;
 }
- 
+
 .pro {
   text-decoration: underline;
 }
- 
+
 .quote {
   color: #eee !important;
   margin-bottom: 10%;
   /* font-weight: 600;   */
 }
- 
+
 .btn {
   background: #34b3a0;
   color: #fff;
@@ -157,7 +157,7 @@ a:hover {
   padding: 0.5rem 1.5rem;
   text-decoration: none;
 }
- 
+
 .slider-wrapper {
   padding-top: 4rem;
   font-size: 30px;
@@ -174,7 +174,7 @@ a:hover {
   margin-top: 6%;
   overflow: hidden;
 }
- 
+
 .slider div {
   color: #fff;
   height: 50px;
@@ -183,12 +183,12 @@ a:hover {
   text-align: center;
   box-sizing: border-box;
 }
- 
+
 .short {
   padding: 1rem;
   color: #66bfbf;
 }
- 
+
 .slider-text1 {
   background: lightgreen;
   animation: slide 9s linear infinite;
@@ -211,7 +211,7 @@ a:hover {
 .slider-text7 {
   background: cyan;
 }
- 
+
 @keyframes slide {
   0% {
     margin-top: -700px;
@@ -262,31 +262,31 @@ a:hover {
     margin-top: -700px;
   }
 }
- 
+
 .middle-container {
   margin: 10px auto;
   height: 10px;
 }
- 
+
 .pro {
   text-decoration: underline;
 }
- 
+
 .hello {
   padding-top: 3rem;
 }
 .intro {
-  width: 30%;
+  width: 60%;
   margin: auto;
   font-size: 1.2rem;
   padding: 30px;
 }
- 
+
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
 }
- 
+
 @import "http://fonts.googleapis.com/css?family=Raleway";
 /*----------------------------------------------
 CSS settings for HTML div Exact Center  
@@ -324,7 +324,7 @@ form {
   font-family: raleway;
   background-color: #fff;
 }
- 
+
 .us-contact {
   background-color: #feffed;
   padding: 20px 35px;
@@ -346,7 +346,7 @@ input[type="text"] {
   font-size: 16px;
   font-family: raleway;
 }
- 
+
 .email {
   width: 82%;
   padding: 0.5rem;
@@ -390,7 +390,7 @@ textarea {
   cursor: pointer;
   border-radius: 5px;
 }
- 
+
 .btn-4 {
   width: auto;
   height: 45px;
@@ -401,12 +401,12 @@ textarea {
   font-size: 18px;
   cursor: pointer;
 }
- 
+
 .btn-4:hover {
   background: white;
   cursor: pointer;
 }
- 
+
 .copyright {
   color: #eaf6f6;
   font-size: 0.85rem;
@@ -417,7 +417,7 @@ textarea {
   padding: 50px 0;
   background: #a7b7f1;
 }
- 
+
 .skills {
   color: white !important;
 }
@@ -427,39 +427,39 @@ textarea {
 .skills p {
   color: white;
 }
- 
+
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
 }
- 
+
 .skill-image1 {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
- 
+
 .skill-image2 {
   width: 30%;
   float: right;
   margin-left: 30px;
 }
- 
+
 .my-image {
   width: 10%;
   border-radius: 30%;
   padding-top: 50px;
 }
- 
+
 .bottom-container {
   background-color: #7bd2ed;
   padding: 50px 0 20px;
   margin: 50px 0;
   color: white;
 }
- 
+
 .btn {
   background: #66bfbf;
   background-image: -webkit-linear-gradient(top, #66bfbf, #488585);
@@ -489,7 +489,7 @@ textarea {
   width: 150px;
   font-weight: 600;
 }
- 
+
 .btn:hover {
   border: solid #337fed 0px;
   background: #8af9f9;
@@ -510,18 +510,18 @@ textarea {
   border-radius: 8px;
   text-decoration: none;
 }
- 
+
 #project-showcase {
   background-color: #8dbbee;
 }
- 
+
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
   color: white;
   font-weight: 500;
 }
- 
+
 .clickme {
   position: absolute;
   top: 47%;
@@ -529,7 +529,7 @@ textarea {
   font-weight: 700;
   right: 16%;
 }
- 
+
 .contact-me h2 {
   color: black;
 }
@@ -539,7 +539,7 @@ textarea {
 .contact-me p {
   color: black;
 }
- 
+
 .project-image {
   width: 50%;
   border-radius: 100px;
@@ -549,7 +549,7 @@ textarea {
   border: 1px solid #ffbf0d;
   border-radius: 80%;
 }
- 
+
 /* text-decoratoin */
 h1 {
   background: url(https://iweb.uz/wp-content/uploads/2012/07/colored21.jpg)
@@ -568,14 +568,14 @@ h1 {
     background-position: left bottom;
   }
 }
- 
+
 ::selection {
   background: rgb(63, 60, 60);
   -webkit-text-stroke: 2px #fff;
 }
- 
+
 /* ---optional---------- */
- 
+
 /* .section {                                                
   padding: 20px 0;                                           
 }                                                            
@@ -583,13 +583,12 @@ h1 {
   background: #000;                                          
   color: #fff;                                               
 }            */
- 
+
 /* ---MEDIA Queries----------*/
- 
+
 @media (max-width: 960px) {
   .container {
     padding-right: 3rem;
     padding-left: 3rem;
   }
 }
- 
